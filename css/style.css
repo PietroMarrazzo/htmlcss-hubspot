@@ -197,3 +197,57 @@ header {
   width: 55%;
   margin-left: 5%;
 }
+
+/* FOOTER */
+footer {
+  background-color: #33475b;
+  height: auto;
+}
+
+/* footer top */
+.lista-col::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col{
+  float: left;
+  border: red solid 1px;
+  width: 20%;
+  margin-right: 6.6666%;
+  height: 300px;
+}
+
+.col4 {
+  float: left;
+  border: red solid 1px;
+  width: 20%;
+  height: 300px;
+}
+
+/* footer bot */
+.footer-bot::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.legal-privacy::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer .logohusbot{
+  float: left;
+
+}
+
+.legal {
+  float: left;
+}
+
+.privacy {
+  float: left;
+}
