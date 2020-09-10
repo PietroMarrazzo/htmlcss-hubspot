@@ -3,3 +3,103 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0px auto;
+}
+
+
+/* HEADER */
+header {
+  background-color: gray;
+  height: auto;
+  position: relative;
+}
+
+
+/* HEADER TOP1 */
+.header-top-1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.utilities {
+  float: left;
+  background-color: red;
+  height: 50px;
+  width: 50%;
+}
+
+.tools {
+  float: left;
+  background-color: pink;
+  height: 50px;
+  width: 50%;
+}
+
+
+/* HEADER TOP2 */
+.header-top-2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logohusbot {
+  float: left;
+  background-color: pink;
+  height: 50px;
+  width: 50%;
+}
+
+.info-link {
+  float: left;
+  background-color: red;
+  height: 50px;
+  width: 50%;
+}
+
+/* HEADER MID */
+.header-mid {
+  background-color: lightgray;  /*immagine sfondo*/
+  height: 500px;
+  position: relative;
+}
+
+.box-header-mid {
+  background-color: red;
+  height: 300px;
+  width: 50%;
+  position: relative;
+  top: 20px;
+}
+
+.striscia {
+  background-color: green;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  height: 30px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+
+/* MAIN SEZIONE 1 */
+.main-1{
+  background-color: lightgray;
+  height: auto;
+}
+
+.box-main-top {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: purple; /*diventerà trasparente*/
+  height: 300px;
+  width: 300px;
+}
