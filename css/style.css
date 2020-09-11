@@ -186,25 +186,53 @@ header {
 .header-mid {
   background: #FFF url(../img/jumbotron.png) no-repeat 30% 90%;
   background-size: cover;
-  height: 700px;
+  height: 800px;
   position: relative;
 }
 
 .box-header-mid {
-  background-color: red;
   height: 300px;
-  width: 50%;
+  width: 38%;
   position: relative;
   top: 20px;
+  padding-top: 60px;
 }
 
+h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+  line-height: 60px;
+}
+
+#box-head-p1 {
+  line-height: 30px;
+  font-size: 15px;
+}
+
+#box-head-p2 {
+  width: 50%;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.button.orange.big {
+  padding: 30px 0px;
+  margin: 30px 0px;
+  width: 50%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
 .striscia {
-  background-color: green;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
-  height: 30px;
   position: absolute;
   bottom: 0px;
+  background: rgb(175,235,228);
+  background: linear-gradient(90deg, rgba(175,235,228,1) 0%, rgba(107,218,204,1) 100%);
+
+  border-top: 4px solid #33475b;
+  border-bottom: 4px solid #33475b;
+  height: 100px;
   width: 100%;
 }
 
