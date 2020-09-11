@@ -38,7 +38,7 @@ header {
 
 .top-1 {
   background-color:#f5f8fa;
-  height: 80px;
+
 }
 
 
@@ -50,24 +50,18 @@ header {
 
 .utilities-bar {
   float: left;
-  height: 50px;
+  height: auto;
   width: 50%;
 }
 
-.lingua{
+.lingua {
   float: left;
-  position: relative;
-  bottom: -10px;
-  margin-top: 20px;
   padding-right: 30px;
   border-right: 2px solid #cbd6e2;
 }
 
 .contact {
   float: left;
-  position: relative;
-  bottom: -12.3px;
-  margin-top: 20px;
   padding-right: 0px;
   padding-left: 30px;
 }
@@ -83,18 +77,20 @@ header {
 }
 
 .utilities {
-  float: left;
-  height: 50px;
   width: 50%;
 }
 
+.utilities li  {
+  display: inline-block;
+  line-height: 50px;
+}
 
 /* TOP-1 DX */
 .tools-bar {
   position: relative;
   float: left;
+  height: auto;
   width: 50%;
-  height: 50px;
 }
 
 .tools {
@@ -102,12 +98,12 @@ header {
   right: 0;
   text-decoration: none;
   list-style: none;
-  margin-top: 20px;
 }
 
 .tools li {
   display: inline-block;
   margin-left: 20px;
+  line-height: 50px;
 }
 
 .search i {
