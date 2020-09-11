@@ -38,7 +38,7 @@ header {
 
 .top-1 {
   background-color:#f5f8fa;
-
+  border-bottom: 1px solid #cbd6e2;
 }
 
 
@@ -46,6 +46,7 @@ header {
 .utilities {
   text-decoration: none;
   list-style: none;
+  height: 70px;
 }
 
 .utilities-bar {
@@ -59,6 +60,8 @@ header {
   padding-right: 30px;
   border-right: 2px solid #cbd6e2;
 }
+
+
 
 .contact {
   float: left;
@@ -82,8 +85,9 @@ header {
 
 .utilities li  {
   display: inline-block;
-  line-height: 50px;
+  line-height: 70px;
 }
+
 
 /* TOP-1 DX */
 .tools-bar {
@@ -103,7 +107,7 @@ header {
 .tools li {
   display: inline-block;
   margin-left: 20px;
-  line-height: 50px;
+  line-height: 70px;
 }
 
 .search i {
@@ -140,14 +144,16 @@ header {
 
 .top-2{
   background-color:#ffffff;
-  height: 80px;
 }
 
 .logohusbot {
   float: left;
-  background-color: pink;
-  height: 50px;
   width: 50%;
+  line-height: 70px;
+}
+
+.logohusbot img {
+  vertical-align: middle;
 }
 
 .info-link {
@@ -156,6 +162,13 @@ header {
   height: 50px;
   width: 50%;
 }
+
+
+
+
+
+
+
 
 /* HEADER MID */
 .header-mid {
