@@ -35,11 +35,7 @@ header {
   height: 80px;
 }
 
-.top-2{
-  background-color:#ffffff;
-  height: 80px;
-}
-
+/* TOP-1 SX */
 .utilities::after{
   content: "";
   display: table;
@@ -50,7 +46,7 @@ header {
   float: left;
   position: relative;
   bottom: -10px;
-  margin: 20px;
+  margin-top: 20px;
   padding-right: 30px;
   border-right: 2px solid #cbd6e2;
 }
@@ -61,9 +57,18 @@ header {
   bottom: -12.3px;
   margin-top: 20px;
   padding-right: 0px;
-  padding-left: 5px;
+  padding-left: 30px;
 }
 
+.contact a{
+  text-decoration: none;
+  color: #33475b;
+}
+
+.fas.fa-angle-down{
+  padding-left: 10px;
+  color: #33475b;
+}
 
 .utilities {
   float: left;
@@ -71,6 +76,8 @@ header {
   width: 50%;
 }
 
+
+/* TOP-1 DX */
 .tools {
   float: left;
   background-color: pink;
@@ -79,11 +86,20 @@ header {
 }
 
 
+
+
+
+
 /* HEADER TOP2 */
 .header-top-2::after {
   content: "";
   display: table;
   clear: both;
+}
+
+.top-2{
+  background-color:#ffffff;
+  height: 80px;
 }
 
 .logohusbot {
