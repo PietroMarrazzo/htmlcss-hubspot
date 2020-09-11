@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <title>Hubspot</title>
   </head>
@@ -14,30 +14,37 @@
      <section class="top-1">
        <div class="container">
           <div class="header-top-1">
-            <nav class="utilities">
-              <div class="lingua">
-                <i class="fas fa-globe-europe"></i> English
-                <a href="#">
-                  <i class="fas fa-angle-down"></i>
-                </a>
-              </div>
-              <div class="contact">
-                <a href="#">Contact Sales</a>
-              </div>
+            <nav class="utilities-bar">
+              <ul class="utilities">
+                <li class="lingua">
+                  <i class="fas fa-globe-europe"></i>
+                  English
+                  <a href="#">
+                    <i class="fas fa-angle-down"></i>
+                  </a>
+                </li>
+                <li class="contact">
+                  <a href="#">Contact Sales</a>
+                </li>
+              </ul>
             </nav>
+            
             <nav class="tools-bar">
-              <section class="tools">
-                <div class="search">
-                 icona search
-                </div>
-                <div class="login">
-                 button login
-                </div>
-                <div class="free">
-                 HusbotFree
-                </div>
-              </section>
-
+              <ul class="tools">
+                <li id="search">
+                 <a href="#">
+                   <i class="fas fa-search"></i>
+                 </a>
+               </li>
+               <li id="login">
+                <a href="#">
+                  <button class="button white" type="button" onclick="alert('Nope!')">Log in</button>
+                </a>
+              </li>
+              <li id="hubfree">
+                <button class="button orange" type="button" onclick="alert('Nope!')">Hubspot Free</button>
+             </li>
+              </ul>
             </nav>
           </div>
      </div>

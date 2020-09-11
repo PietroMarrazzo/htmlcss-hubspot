@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Kumbh Sans', sans-serif;
+  font-weight: normal;
   color: #33475b;
 }
 
@@ -15,6 +16,11 @@ body {
   margin: 0px auto;
 }
 
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* HEADER */
 header {
@@ -37,10 +43,15 @@ header {
 
 
 /* TOP-1 SX */
-.utilities::after{
-  content: "";
-  display: table;
-  clear: both;
+.utilities {
+  text-decoration: none;
+  list-style: none;
+}
+
+.utilities-bar {
+  float: left;
+  height: 50px;
+  width: 50%;
 }
 
 .lingua{
@@ -80,29 +91,46 @@ header {
 
 /* TOP-1 DX */
 .tools-bar {
+  position: relative;
   float: left;
-  height: 50px;
   width: 50%;
+  height: 50px;
 }
 
 .tools {
-  position: relative;
-  left: 100%;
-  transform: translateX(-50%);
-  bottom: -10px;
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+  list-style: none;
   margin-top: 20px;
 }
 
-.search, .login, .free {
-  float: left;
-
+.tools li {
+  display: inline-block;
+  margin-left: 20px;
 }
 
+.search i {
+    color: #33475b;
+}
 
+.button.white{
+  background-color: white;
+  border: 1px solid #ff7a59;
+  color: #ff7a59;
+  padding: 8px 30px;
+  border-radius: 3px;
+  font-weight: normal;
+}
 
-
-
-
+.button.orange {
+  background-color: #ff7a59;
+  border: 1px solid #ff7a59;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 3px;
+  font-weight: normal;
+}
 
 
 
