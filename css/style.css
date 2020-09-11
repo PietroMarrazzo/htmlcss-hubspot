@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #33475b;
+}
+
 .container {
-  width: 1000px;
+  width: 1100px;
   max-width: 100%;
   margin: 0px auto;
 }
@@ -27,12 +32,41 @@ header {
 
 .top-1 {
   background-color:#f5f8fa;
-  height: auto;
+  height: 80px;
 }
+
+.top-2{
+  background-color:#ffffff;
+  height: 80px;
+}
+
+.utilities::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lingua{
+  float: left;
+  position: relative;
+  bottom: -10px;
+  margin: 20px;
+  padding-right: 30px;
+  border-right: 2px solid #cbd6e2;
+}
+
+.contact {
+  float: left;
+  position: relative;
+  bottom: -12.3px;
+  margin-top: 20px;
+  padding-right: 0px;
+  padding-left: 5px;
+}
+
 
 .utilities {
   float: left;
-  background-color: red;
   height: 50px;
   width: 50%;
 }
