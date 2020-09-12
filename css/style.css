@@ -282,7 +282,7 @@ h1 {
   border-radius: 4px;
 }
 
-/* seconda box  LUNGA*/
+/* seconda box  LUNGA, parte sx*/
 .box.main-mid {
   position: relative;
   width: 1100px;
@@ -290,7 +290,15 @@ h1 {
   margin: 10px 0px;
 }
 
+.box.main-mid::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 .icona_pulsante {
+  float: left;
   position: relative;
   width: 30%;
   height: 300px;
@@ -307,12 +315,67 @@ h1 {
 
 .icona_pulsante img {
   width: 130px;
+  margin-bottom: 25px;
 }
 
-.icona_pulsante button {
+.button.orange.mid {
   display: block;
   width: auto;
   margin: auto;
+  padding: 15px 30px;
+}
+
+
+/* parte dx box lunga */
+.parag-main-mid {
+  float: left;
+  position: relative;
+  width: 70%;
+  height: 300px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.float-main-mid {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90%;
+  height: auto;
+}
+
+.h3-main-mid {
+  padding-bottom: 25px;
+}
+
+.p-main-mid {
+  line-height: 30px;
+}
+
+.h4-main-mid {
+  display: inline-block;
+  padding: 20px 0px;
+  text-transform: uppercase;
+
+}
+
+.parag-main-mid hr {
+  display: inline-block;
+  width: 60%;
+  vertical-align: middle;
+  margin-left: 50px;
+  height: 2px;
+  color: gray;
+  background-color: gray;
+  border: none;
+}
+
+.list-main-mid {
+
+}
+
+.list-main-mid li {
+  display: inline-block;
 }
 
 
