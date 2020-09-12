@@ -32,11 +32,30 @@ body {
   font-weight: normal;
 }
 
+.button.orange:hover{
+  background-color: #ff7a59;
+  opacity: 0.6;
+    cursor: pointer;
+}
+
 .button.orange.mid {
   display: block;
   width: auto;
-  margin: auto;
+  margin: 10px auto;
   padding: 15px 30px;
+}
+
+.button.orange.mid:hover{
+  background-color: #ff7a59;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.button.white:hover{
+  background-color: #ff7a59;
+  opacity: 0.6;
+  color: white;
+  cursor: pointer;
 }
 
 #check-orange {
@@ -394,31 +413,35 @@ h1 {
 
 .box-colonne-bot {
   width: 1100px;
-  padding-bottom: 30px;
+  padding: 30px 0px;
+  text-align: center;
 }
-
-/* .container-colon {
-  margin:auto;
-  width: 80%;
-} */
 
 
 .box.colonna1 {
   float: left;
   background: white;
   width: 28%;
-  height: auto;
-  margin-right: 8%;
 }
 
+.box.colonna2 {
+  background: white;
+  display: inline-block;
+  width: 28%;
+  margin: auto;
+}
+
+.box.colonna3 {
+  float: right;
+  background: white;
+  width: 28%;
+}
+
+
+/* sezione box colonna 1 */
 .colon-top {
   width: 80%;
   margin: 10px auto;
-}
-
-.colon-top img {
-  width: 100px;
-  padding: 10px 0px;
 }
 
 .h3-colon {
@@ -450,25 +473,27 @@ h1 {
   padding-bottom: 35px;
 }
 
-
-
-.box.colonna2 {
-  float: left;
-  background: white;
-  width: 28%;
-  height: 500;
-  margin-right: 8%;
-  height: 500px;
+/* SEZIONE IMMAGINI COLONNE */
+.img-col{
+  width: 100px;
+  height: 105px;
+  margin: 0 auto;
 }
 
-.box.colonna3 {
-  float: left;
-  background: white;
-  width: 28%;
-  height: 500;
-  height: 500px;
+#img-hubfree {
+  width: 100%;
+  height: 100%;
 }
 
+#img-sales {
+  width: 100%;
+  height: 100%;
+}
+
+#img-marketing {
+  width: 100%;
+  height: 100%;
+}
 
 /* MAIN SEZIONE 2 */
 .main-2{
