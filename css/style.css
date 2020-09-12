@@ -32,6 +32,10 @@ body {
   font-weight: normal;
 }
 
+#check-orange {
+  color: #ff7a59;
+  padding-right: 10px;
+}
 
 /* HEADER */
 header {
@@ -315,7 +319,7 @@ h1 {
 
 .icona_pulsante img {
   width: 130px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .button.orange.mid {
@@ -361,7 +365,7 @@ h1 {
 
 .parag-main-mid hr {
   display: inline-block;
-  width: 60%;
+  width: 68%;
   vertical-align: middle;
   margin-left: 50px;
   height: 2px;
@@ -371,11 +375,12 @@ h1 {
 }
 
 .list-main-mid {
-
+  padding-top: 5px;
 }
 
 .list-main-mid li {
   display: inline-block;
+  padding-right: 20px;
 }
 
 
