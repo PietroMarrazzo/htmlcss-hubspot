@@ -517,9 +517,97 @@ h1 {
 }
 
 .box-main-info {
-  background-color: #2c693c; /*diventa trasparente*/
-  height: 400px;
+  position: relative;
+  color: white;
 }
+
+#box-main-top {
+  padding-top: 125px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+#h2-box-top {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  line-height: 40px;
+}
+
+#p-box-top {
+  padding-top: 20px;
+  line-height: 28px;
+}
+
+/* sezione bot */
+#box-main-bot {
+
+}
+
+#float-box1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#float-box1 {
+  position: relative;
+  text-align: center;
+}
+
+
+/* layout colonne */
+.trasp-col-top {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.trasp-col-bot {
+  border-right: 1px solid white;
+}
+
+
+/* colonna 1 */
+.trasp-col1 {
+  width: 25%;
+}
+
+
+/* colonna 2 */
+.trasp-col2 {
+  position: absolute;
+  top: 0px;
+  left: 25%;
+  width: 25%;
+}
+
+
+/* colonna 3 */
+.trasp-col3 {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 25%;
+}
+
+
+/* colonna 4 */
+.trasp-col4 {
+  position: absolute;
+  top: 0px;
+  left: 75%;
+  width: 25%;
+}
+
+.trasp-col4-top {
+  border-bottom: 1px solid white;
+}
+
+
+
+
+
 
 /* SEZIONE MAIN 3 */
 .main-3 {
