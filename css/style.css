@@ -519,6 +519,7 @@ h1 {
 .box-main-info {
   position: relative;
   color: white;
+  margin-bottom: 120px;
 }
 
 #box-main-top {
@@ -542,7 +543,7 @@ h1 {
 
 /* sezione bot */
 #box-main-bot {
-
+  padding-top: 80px;
 }
 
 #float-box1::after {
@@ -554,6 +555,7 @@ h1 {
 #float-box1 {
   position: relative;
   text-align: center;
+  height: 400px;
 }
 
 
@@ -561,16 +563,37 @@ h1 {
 .trasp-col-top {
   border-right: 1px solid white;
   border-bottom: 1px solid white;
+  height: 50%;
 }
 
 .trasp-col-bot {
   border-right: 1px solid white;
+  height: calc(100% - 50%);
 }
 
+#box-main-bot img {
+  padding-top: 30px;
+}
+
+.h1-trasp {
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+.plus-trasp {
+  display: inline-block;
+  font-size: 25px;
+}
+
+
+.par-trasp {
+  padding-bottom: 30px;
+}
 
 /* colonna 1 */
 .trasp-col1 {
   width: 25%;
+  height: 100%;
 }
 
 
@@ -580,6 +603,7 @@ h1 {
   top: 0px;
   left: 25%;
   width: 25%;
+  height: 100%;
 }
 
 
@@ -589,6 +613,7 @@ h1 {
   top: 0px;
   left: 50%;
   width: 25%;
+  height: 100%;
 }
 
 
@@ -598,10 +623,12 @@ h1 {
   top: 0px;
   left: 75%;
   width: 25%;
+  height: 100%;
 }
 
 .trasp-col4-top {
   border-bottom: 1px solid white;
+  height: 50%;
 }
 
 
