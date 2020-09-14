@@ -644,71 +644,226 @@ h1 {
 
 
 
-
-
-
 /* SEZIONE MAIN 3 */
 .main-3 {
-  background-color: lightgray;
   height: auto;
 }
 
-
-.box-main-3 {
-  width: 1000px;
-  height: 300px;
-  background-color: white;
-  padding: 30px 0px;
+/* BOX MAIN3 TOP */
+.box-top-main-3 {
+  width: 1100px;
 }
 
+/* BOX TOP MAIN3 SINISTRA */
+.box-top-main-3::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper-top-main3-sx {
+  float: left;
+  width: 40%;
+}
+
+.box-top-main3-sx {
+  text-align: left;
+  width: 40%;
+  margin: 50px auto;
+}
+
+.box-top-main3-sx h2 {
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+.box-top-main3-sx p {
+  line-height: 30px;
+}
+
+/* BOX TOP MAIN 3 DESTRA */
+.wrapper-top-main3-dx {
+  float: left;
+
+}
+
+.img-box1-top-main3-dx {
+  margin-top: 90px;
+}
+
+.img-box2-top-main3-dx {
+  margin-top: 20px;
+}
+
+.wrapper-top-main3-dx img {
+    vertical-align: middle;
+    padding: 0px 8px;
+}
+
+#img-atla {
+  width: 150px;
+}
+
+#img-doordash {
+  width: 150px;
+}
+
+#img-g2crowd {
+  width: 100px;
+}
+
+#img-purple-logo {
+  width: 100px;
+}
+
+#img-Subaru_Logo {
+  width: 100px;
+}
+
+#img-Wistia_logo {
+  width: 100px;
+}
+
+#img-Classpass-logo {
+  width: 100px;
+}
+
+#img-VMware_logo{
+  width: 100px;
+}
+
+
+/* BOX INFERIORI MAIN 3 */
 .box-col-main-3::after{
   content: "";
   display: table;
   clear: both;
 }
 
-.col-sx {
+.box-col-main3-sx {
   float: left;
-  background-color: white;
-  height: 500px;
   width: 40%;
+  margin-top: 40px;
 }
 
-.col-dx {
-  float: left;
+.wrapper-h2-col-main3-sx h2 {
+  font-size: 30px;
+}
+
+#h2-col-main3-sx2 {
+  padding-bottom: 25px;
+}
+
+#p-col-main3-sx {
+  line-height: 20px;
+}
+
+#p-min-col-main3-sx {
+  font-size: 12px;
+}
+
+.box-col-main3-dx {
+  float: right;
   background-color: white;
   height: 500px;
   width: 55%;
   margin-left: 5%;
 }
 
+.box-col-main3-dx img {
+  float: right;
+  width: 350px;
+
+}
+
+
+
 /* FOOTER */
 footer {
   background-color: #33475b;
-  height: auto;
 }
 
 /* footer top */
+.footer-top {
+  padding-top: 40px;
+}
+
 .lista-col::after{
   content: "";
   display: table;
   clear: both;
 }
 
-.col{
+.col-footer {
   float: left;
-  border: red solid 1px;
   width: 20%;
   margin-right: 6.6666%;
-  height: 300px;
+  color: white;
 }
 
-.col4 {
+.col-footer4 {
   float: left;
-  border: red solid 1px;
   width: 20%;
-  height: 300px;
+  color: white;
 }
+
+.lista-col h4 {
+  padding-bottom: 20px;
+}
+
+.lista-col ul {
+  list-style: none;
+
+}
+
+.lista-col a {
+  color: #cbd6e2;
+  text-decoration: none;
+  line-height: 35px;
+}
+
+.lista-col a:hover {
+  cursor: pointer;
+  color: #73c7b8;
+}
+
+.footer-top::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.box-support-social {
+  float: right;
+}
+
+.button.white.footer {
+  display: block;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 8px 30px;
+  border-radius: 3px;
+  margin: 25px 0px;
+}
+
+#social-list-footer {
+  list-style: none;
+}
+
+#social-list-footer li {
+  display: inline;
+  padding-right: 15px;
+}
+
+.col-footer4 i {
+  font-size: 20px;
+}
+
+/* LINK LINGUE */
+/* #cbd6e2 */
+
+
 
 /* footer bot */
 .footer-bot::after{
